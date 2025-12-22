@@ -1,0 +1,299 @@
+{
+  "APP_ID": "Knowledge Assessment - US 25920 (v3) Use joints for a BCATS project",
+  "VERSION": "2025",
+  "APP_TITLE": "US 25920 (v3) Use joints for a BCATS project",
+  "APP_SUBTITLE": "US 25920 (v3) Use joints for a BCATS project",
+  "DEADLINE": {
+    "day": 27,
+    "month": 12,
+    "label": "Submission deadline"
+  },
+  "TEACHERS": [
+    {
+      "id": "RY",
+      "name": "Mr Reynolds",
+      "email": "ry@pukekohehigh.school.nz"
+    },
+    {
+      "id": "RNR",
+      "name": "Mr Ranson",
+      "email": "rnr@pukekohehigh.school.nz"
+    },
+    {
+      "id": "Other",
+      "name": "Other Teacher",
+      "email": "technology@pukekohehigh.school.nz"
+    }
+  ],
+  "ASSESSMENTS": [
+    {
+      "id": "US 25920 (v3)",
+      "title": "US 25920 v3 Knowledge Assessment -",
+      "subtitle": "Use joints for a BCATS project",
+      "usNumber": "US 25920",
+      "usVersion": "3",
+      "credits": 3,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "1_two_checks",
+          "text": "What are two checks you can make on timber you have selected for a project?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Wood joints page 14.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+             
+  "points": 1,
+  "check": "warp(ed|ing)?|warped|warping|cupp?ing|cupped|bow(ed|ing)?|bowed|twist(ed|ing)?|twisted|crook(ed)?|crooked|wind|bent|bend|curve|curved|curving|distort|spring|sprung|(not|no|n't) ?(straight|flat|true|square|level|even)|twisted? up|bowed? out|cupped? up|not straight|not flat|no twist|no bow|no cup",
+  "flags": "i"
+
+    },
+    {
+      "points": 1,
+      "check": "(good|nice|best|pretty|beautiful|consistent|even|uniform|same|matching|match|similar|straight|run|flow|clear|clean|no.*defect|defect.*free|blemish.*free|knot.*free|figure|attractive|cool|awesome|epic|perfect|lovely|excellent|great).*(grain|figure|colour|color|pattern|direction|appearance|look|surface|finish|wood)|grain.*(pattern|direct?ion|match|figure|flow|run|look|colour|color|appearance|finish|surface|good|nice|best|pretty|consistent|even|same|straight|clear|clean|beautiful)|(figure|colour|color).*(wood|grain|match|same|consistent|good|nice|beautiful|even)|match.*(grain|colour|color|pattern|figure)|appearance|look|colour|color|defect|blemish|knot|crack|split|stain|mark|damage|finish|surface|smooth|rough|pretty|nice|beautiful|consistent|even|uniform",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "(good|right|correct|proper|exact|perfect|big|small|long|wide|thick|enough|sufficient).*(size|dimension|length|width|thickness|thick|square|measurement)|size|dimension|length|width|thick|thickness|long.*enough|wide.*enough|big.*enough|small.*enough|thick.*enough|right.*size|correct.*size|proper.*size|square.*enough|square|squared|squareness|straight.*square|ends?.*square|ends?.*squared|face.*square|edge.*square|90.*degree|right.*angle|measure|measurement|check.*(size|length|width|thick|square)|big.*enough|fit.*project|fit.*plan|matches.*drawing|matches.*plan|correct.*dimension|actual.*size",
+      "flags": "i"
+     
+            }
+          ]
+        },
+        {
+          "id": "2_joint_angle",
+          "text": "What is the name of the joint used to join mouldings around a rectangular doorway and what is the angle of the cut?",
+          "image": "blank.jpg",
+          "hint": "Take a look at  joints pages 7 - 8",
+          "type": "short",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "mitre joint",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(45|forty five)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(deg|degrees)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "3_lap_dovetail_reasons",
+          "text": "Give two reasons why lap dovetail joints are used for drawer fronts.",
+          "image": "blank.jpg",
+          "hint": "Take a look at Dovetail joints and Lap dovetail page 9 and page 13.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+      "check": "strong|strength|mechanical|resist|lock|won't.? ?pull|cant.? ?pull|can't.? ?come|won't.? ?come|pull.*apart|come.*apart|apart.*pull|apart.*come|hold.*together|tight|tension|durable|hard.?wearing|long.?lasting|daily.?use|everyday.?use|frequent|frequent.*use|constant|repeat|opening|closing|drawer.*use",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "hidden|concealed|secret|not.? ?visible|can't.? ?see|not.? ?seen|invisible|cover|hide|hides|hiding|clean.*front|clean.*face|nice.*front|smooth.*front|no.*joint.*front|no.*dovetail.*front|front.*clean|front.*smooth|front.*nice|drawer.*front.*clean|drawer.*face.*clean|look.*good|looks.*good|neat.*front|tidy.*front|professional.*look",
+      "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "4_shelf_joints",
+          "text": "What is the name of the housing joint where the trench does not extend right across the face of the vertical board?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Housing joints page 10.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(stopped housing|stop housing|stopped housing joint)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "5_mortise_tenon_types_a",
+          "text": "What are the specific names of the mortise and tenon joint that does not penetrate right through the stile?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Mortise and tenon joints page 11.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(stub( tenon)?|stopped( tenon)?|blind( tenon)?)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "5_mortise_tenon_types_copy_b",
+          "text": "What are the specific names of the mortise and tenon joint that stops the rail from twisting?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Mortise and tenon joints page 11.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "haunch(ed)?( tenon)?",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "5_mortise_tenon_types_copy_c",
+          "text": "What are the specific names of the mortise and tenon joint that passes right through the stile?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Mortise and tenon joints page 11.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(through( tenon)?|through joint)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "5_mortise_tenon_types_copy_d",
+          "text": "What are the specific names of the mortise and tenon joint that has wedges inserted for strength?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Mortise and tenon joints page 11.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "wedged",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "6_dowel_accuracy",
+          "text": "Why is it necessary to be accurate when setting out a dowel joint?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Dowelled joints page 14.",
+          "type": "short",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+      "check": "(accurate|accuracy|accurately|precise|precision|precisely|careful|carefully|exact|spot.?on|bang.?on|dead.?on).*(holes?|positions?|centres?|centers?|marking|setting out|drilling|drill|dowel points?)|(holes?|positions?|centres?|centers?|marking|setting out|drilling|drill|dowel points?).*(accurate|accuracy|accurately|precise|precision|precisely|careful|carefully|exact|spot.?on|bang.?on|dead.?on)",
+      "flags": "i"
+            },
+            {
+             "points": 1,
+      "check": "(so|because|then|if|means|need|must|has to).*(dowel|peg|joint|pieces?|parts?|boards?|halves?).*(line.?up|align|match.?up|flush|straight|square|fit|join|go.?together|tight|properly|correctly|evenly|even|level|flat|not twist|no gap|gap.?free|gaps?|no gaps?)|line.?up|align|match.?up|flush|straight|square|fit|join|go.?together|tight|properly|correctly|evenly|even|level|flat|not twist|no gap|gap.?free|gaps?|no gaps?",
+      "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "7_hand_tool",
+          "text": "What is the name of the portable power tool used make a biscuit joint?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Biscuit joints page 15.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(biscuit\\s*(joiner|jointer|cutter)|plate\\s*joiner)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "8_three_welded_joints",
+          "text": "Name three of the five basic welded joints.",
+          "image": "blank.jpg",
+          "hint": "Take a look at Metal joints and Welding page 16.",
+          "type": "short",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(butt\\s*joint)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(corner\\s*joint)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(tee\\s*joint|t\\s*-?joint)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(lap\\s*joint)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(edge\\s*joint)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "9_two_gases",
+          "text": "What are the two most common gases used in gas welding?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Gas welding page 33.",
+          "type": "short",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 2,
+              "check": "(?=.*(oxygen|oxy\\b))(?=.*(acetylene|acetalene|acetalyne)).*",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "10_quality_project_key",
+          "text": "What is the key to producing a quality project?",
+          "image": "blank.jpg",
+          "hint": "Take a look at Wood joints page 14.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(preparation|prepare|prepared|prepping|readying|getting ready|set up|set-up|setup|initial work|starting work|initial preparation|timber prep|wood prep|material prep|stock prep|good prep|well prep|proper prep|careful prep|thorough prep|properly prepared|nicely prepared|correctly prepared|ready to use|ready for use|ready for assembly|ready to assemble|prepared properly|prepared correctly|prepared well|prepared carefully|prepared accurately)( of the | )?(timber|wood|lumber|material|stock|pieces?|components?|parts?|boards?)?( was| were| is| are| been| properly| correctly| well| carefully| accurately| nicely| thoroughly| good| great| excellent| perfect| neat| tidy| clean| precise| accurate)?(\\.? |!|$)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(accurate|accuracy|accurately|precise|precision|precisely|careful|carefully|exact|exactly|spot.?on|bang.?on|dead.?on|perfect|perfectly|neat|neatly|tidy|tidily|measured well|measured accurately|measured carefully|measured correctly|cut accurately|cut precisely|cut correctly|cut well|sawn? (accurately|precisely|correctly|straight|square)|planed (accurately|precisely|correctly|flat|smooth|well)|marked out (accurately|precisely|carefully|correctly)|marked (accurately|precisely|carefully|correctly)|machined (accurately|precisely|correctly)|done accurately|done precisely|worked accurately|worked precisely|made accurately|made precisely)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(square|squared|squareness|straight|straightness|true|trued|flat|flatness|parallel|90.? ?degrees?|90°|right.?angle|right.?angles|perpendicular|dead.?square|perfectly square|spot.?on square|bang.?on square|dead.?on square|straight and true|straight and square|true and square|straight & square|square and straight|square and true|ends? (square|squared|cut square)|edges? (square|squared|straight|true|flat)|faces? (square|squared|straight|true|flat|parallel)|all square|all straight|all true|all flat|all parallel|square to each other|straight along|straight across|no twist|no bow|no cup|no wind|wind.?free|twist.?free|bow.?free|cup.?free)",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
