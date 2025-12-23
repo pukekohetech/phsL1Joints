@@ -163,7 +163,7 @@
         {
           "id": "q6_dowel_accuracy",
           "text": "6.\tWhy is it necessary to be accurate when setting out a dowel joint?",
-          "image": "blank.jpg",
+          "image": "Dowel.png",
           "hint": "Look at Dowelled joints (page 14). Think: what accuracy helps happen during assembly.",
           "type": "short",
           "maxPoints": 2,
