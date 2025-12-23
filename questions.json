@@ -121,7 +121,7 @@
           "image": "blank.jpg",
           "hint": "Look at Mortise and tenon joints (page 11). Match each description to the correct joint name.",
           "type": "long",
-          "maxPoints": 3,
+          "maxPoints": 1,
           "rubric": [
             {
               "points": 1,
@@ -136,7 +136,7 @@
           "image": "blank.jpg",
           "hint": "Look at Mortise and tenon joints (page 11). Match each description to the correct joint name.",
           "type": "long",
-          "maxPoints": 3,
+          "maxPoints": 1,
           "rubric": [
             {
               "points": 1,
@@ -151,7 +151,7 @@
           "image": "blank.jpg",
           "hint": "Look at Mortise and tenon joints (page 11). Match each description to the correct joint name.",
           "type": "long",
-          "maxPoints": 3,
+          "maxPoints": 1,
           "rubric": [
             {
               "points": 1,
