@@ -2,9 +2,9 @@
   "APP_ID": "Knowledge Assessment - US 25920 (v3) Use joints for a BCATS project",
   "VERSION": "2025",
   "APP_TITLE": "US 25920 (v3) Use joints for a BCATS project",
-  "APP_SUBTITLE": "Knowledge Assessment - Short Answer Friendly",
+  "APP_SUBTITLE": "Knowledge Assessment - Short Answer Friendly (no giveaways)",
   "DEADLINE": {
-    "day": 27,
+    "day": 30,
     "month": 12,
     "label": "Submission deadline"
   },
@@ -27,109 +27,84 @@
   ],
   "ASSESSMENTS": [
     {
-      "id": "US 25920 (v3)",
+      "id": "US 25920 (v3) - Knowledge Quiz",
       "title": "US 25920 v3 Knowledge Assessment",
-      "subtitle": "Use joints for a BCATS project (Short Answer Friendly)",
+      "subtitle": "Use joints for a BCATS project",
       "usNumber": "US 25920",
       "usVersion": "3",
       "credits": 3,
       "standardType": "internal",
       "questions": [
         {
-          "id": "q1a_timber_check_straight",
-          "text": "Q1a: Name ONE check for straight timber (shape/flatness).",
+          "id": "q1_timber_two_checks",
+          "text": "1.\tWhat are two checks you can make on timber you have selected for a project?",
           "image": "blank.jpg",
-          "hint": "Examples: straight, flat, no twist, no bow, no cup, no warp.",
-          "type": "short",
-          "maxPoints": 1,
+          "hint": "Look in the Wood joints section about selecting and preparing timber (around page 7). Give TWO different checks.",
+          "type": "long",
+          "maxPoints": 2,
           "rubric": [
             {
               "points": 1,
-              "check": "\\b(straight|flat|true|square|warp|warped|warping|wind|twist|twisted|no\\s*twist|bow|bowed|no\\s*bow|cup|cupped|no\\s*cup|crook|crooked|bent|bend|curve|curved)\\b",
+              "check": "\\b(straight|flat|true|square|no\\s*twist|twist|wind|bow|bowed|cup|cupped|warp|warped|crook|crooked|bent|curve|curved)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(defect|defects|blemish|blemishes|knot|knots|crack|cracks|split|splits|stain|stains|damage|mark|marks|grain|pattern|figure|colour|color|appearance|seen|visible|best\\s*side|long\\s*enough|length)\\b",
               "flags": "i"
             }
           ]
         },
         {
-          "id": "q1b_timber_check_quality",
-          "text": "Q1b: Name ONE check for timber quality (defects/appearance).",
+          "id": "q2_mitre_joint_angle",
+          "text": "2.\tWhat is the name of the joint used to join mouldings around a rectangular doorway and what is the angle of the cut?",
           "image": "blank.jpg",
-          "hint": "Examples: knots, cracks, splits, damage, stain, grain match/figure.",
+          "hint": "Look at Mitre joints (pages 8–9 area). You need the JOINT NAME and the CUT ANGLE.",
           "type": "short",
-          "maxPoints": 1,
-          "rubric": [
-            {
-              "points": 1,
-              "check": "\\b(knot|knots|crack|cracks|split|splits|stain|damage|defect|blemish|grain|figure|colour|color|match)\\b",
-              "flags": "i"
-            }
-          ]
-        },
-        {
-          "id": "q2a_joint_name_mitre",
-          "text": "Q2a: Name the joint used for mouldings around a rectangular doorway.",
-          "image": "blank.jpg",
-          "hint": "Joints pages 7–8.",
-          "type": "short",
-          "maxPoints": 1,
+          "maxPoints": 3,
           "rubric": [
             {
               "points": 1,
               "check": "\\b(mitre|miter)\\b",
               "flags": "i"
-            }
-          ]
-        },
-        {
-          "id": "q2b_joint_angle_mitre",
-          "text": "Q2b: What angle is each cut?",
-          "image": "blank.jpg",
-          "hint": "Give the angle (degrees).",
-          "type": "short",
-          "maxPoints": 1,
-          "rubric": [
+            },
             {
               "points": 1,
-              "check": "\\b45\\b|\\bforty\\s*five\\b",
+              "check": "\\b(45|forty\\s*five)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(deg|degree|degrees|°)\\b",
               "flags": "i"
             }
           ]
         },
         {
-          "id": "q3a_lap_dovetail_reason_strength",
-          "text": "Q3a: Lap dovetail drawer fronts — give ONE reason (strength/use).",
+          "id": "q3_lap_dovetail_two_reasons",
+          "text": "3.\tGive two reasons why lap dovetail joints are used for drawer fronts.",
           "image": "blank.jpg",
-          "hint": "Page 9 and page 13.",
-          "type": "short",
-          "maxPoints": 1,
+          "hint": "Look at Dovetail joints / Lap dovetail (page 9 area). Give TWO reasons (can be short phrases).",
+          "type": "long",
+          "maxPoints": 2,
           "rubric": [
             {
               "points": 1,
-              "check": "\\b(strong|strength|lock|resist|resists|won'?t\\s*pull|pull\\s*apart|hold|durable|hard\\s*wearing|long\\s*lasting)\\b",
+              "check": "\\b(strong|strength|cannot\\s*pull\\s*apart|can'?t\\s*pull\\s*apart|won'?t\\s*pull\\s*apart|resist|prevents|prevent|hold|holding|lock|locking|tight|tension|durable|hard\\s*wearing|long\\s*lasting|repeat|repeated|pulling|drawer\\s*front|front\\s*from\\s*coming\\s*away|come\\s*away)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(hidden|hide|hides|conceal|concealed|not\\s*visible|invisible|not\\s*seen|clean\\s*front|neat|tidy|better\\s*finish|good\\s*finish|looks\\s*good|nice\\s*front|front\\s*looks|appearance)\\b",
               "flags": "i"
             }
           ]
         },
         {
-          "id": "q3b_lap_dovetail_reason_hidden",
-          "text": "Q3b: Lap dovetail drawer fronts — give ONE reason (appearance).",
+          "id": "q4_stopped_housing",
+          "text": "4.\tWhat is the name of the housing joint where the trench does not extend right across the face of the vertical board?",
           "image": "blank.jpg",
-          "hint": "Page 9 and page 13.",
-          "type": "short",
-          "maxPoints": 1,
-          "rubric": [
-            {
-              "points": 1,
-              "check": "\\b(hidden|hide|hides|conceal|concealed|not\\s*visible|invisible|clean\\s*front|neat|tidy|smooth\\s*front|looks\\s*good|nice\\s*front|professional)\\b",
-              "flags": "i"
-            }
-          ]
-        },
-        {
-          "id": "q4_stopped_housing_name",
-          "text": "Q4: Name the housing joint where the trench does NOT go across the full face.",
-          "image": "blank.jpg",
-          "hint": "Housing joints page 10.",
+          "hint": "Look at Housing joints (page 10 area). It’s the housing where the trench stops short of the front face.",
           "type": "short",
           "maxPoints": 1,
           "rubric": [
@@ -141,43 +116,23 @@
           ]
         },
         {
-          "id": "q5a_mortise_tenon_not_through",
-          "text": "Q5a: Mortise and tenon that does NOT go right through the stile is called: ____",
+          "id": "q5_mortise_tenon_specific_names",
+          "text": "5.\tWhat are the specific names of the following mortise and tenon joints? \n\ta)  Stops a rail from twisting\t\n\tb)  Does not penetrate right through the stile\t\n\tc)  Passes all the way through the stile\t",
           "image": "blank.jpg",
-          "hint": "Mortise and tenon joints page 11.",
-          "type": "short",
-          "maxPoints": 1,
+          "hint": "Look at Mortise and tenon joints (page 11). Match each description to the correct joint name.",
+          "type": "long",
+          "maxPoints": 3,
           "rubric": [
             {
               "points": 1,
-              "check": "\\b(blind|stub|stopped)\\b",
+              "check": "\\b(haunch|haunched|haunching)\\b",
               "flags": "i"
-            }
-          ]
-        },
-        {
-          "id": "q5b_mortise_tenon_stops_twist",
-          "text": "Q5b: Mortise and tenon that stops the rail twisting is called: ____",
-          "image": "blank.jpg",
-          "hint": "Mortise and tenon joints page 11.",
-          "type": "short",
-          "maxPoints": 1,
-          "rubric": [
+            },
             {
               "points": 1,
-              "check": "\\b(haunch|haunched)\\b",
+              "check": "\\b(stub|stopped|blind)\\b",
               "flags": "i"
-            }
-          ]
-        },
-        {
-          "id": "q5c_mortise_tenon_through",
-          "text": "Q5c: Mortise and tenon that goes right through the stile is called: ____",
-          "image": "blank.jpg",
-          "hint": "Mortise and tenon joints page 11.",
-          "type": "short",
-          "maxPoints": 1,
-          "rubric": [
+            },
             {
               "points": 1,
               "check": "\\b(through)\\b",
@@ -186,55 +141,30 @@
           ]
         },
         {
-          "id": "q5d_mortise_tenon_wedges",
-          "text": "Q5d: Mortise and tenon with wedges inserted for strength is called: ____",
+          "id": "q6_dowel_accuracy",
+          "text": "6.\tWhy is it necessary to be accurate when setting out a dowel joint?",
           "image": "blank.jpg",
-          "hint": "Mortise and tenon joints page 11.",
+          "hint": "Look at Dowelled joints (page 14). Think: what accuracy helps happen during assembly.",
           "type": "short",
-          "maxPoints": 1,
+          "maxPoints": 2,
           "rubric": [
             {
               "points": 1,
-              "check": "\\b(wedged|wedge)\\b",
+              "check": "\\b(accurate|accuracy|accurately|precise|precision|exact|careful|correct)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(line\\s*up|lines\\s*up|align|alignment|match\\s*up|fit|fits|go\\s*together|square|straight|flush|no\\s*gaps?|gap\\s*free|perfectly)\\b",
               "flags": "i"
             }
           ]
         },
         {
-          "id": "q6a_dowel_accuracy_why",
-          "text": "Q6a: Dowel joints — why must marking/drilling be accurate? (ONE idea)",
+          "id": "q7_biscuit_tool",
+          "text": "7.\tWhat is the name of the portable power tool used make a biscuit joint?",
           "image": "blank.jpg",
-          "hint": "Dowelled joints page 14.",
-          "type": "short",
-          "maxPoints": 1,
-          "rubric": [
-            {
-              "points": 1,
-              "check": "\\b(accurate|accuracy|precise|precision|exact)\\b|\\b(holes?|mark|marking|centre|center|drill|drilling|position)\\b",
-              "flags": "i"
-            }
-          ]
-        },
-        {
-          "id": "q6b_dowel_accuracy_result",
-          "text": "Q6b: If it is NOT accurate, what happens? (ONE idea)",
-          "image": "blank.jpg",
-          "hint": "Think: won’t line up, won’t fit, gaps, not square, twist.",
-          "type": "short",
-          "maxPoints": 1,
-          "rubric": [
-            {
-              "points": 1,
-              "check": "\\b(not\\s*line\\s*up|won'?t\\s*line\\s*up|misalign|won'?t\\s*fit|not\\s*fit|gap|gaps|not\\s*square|twist|crooked|won'?t\\s*go\\s*together)\\b",
-              "flags": "i"
-            }
-          ]
-        },
-        {
-          "id": "q7_biscuit_tool_name",
-          "text": "Q7: Name the portable power tool used to make a biscuit joint.",
-          "image": "blank.jpg",
-          "hint": "Biscuit joints page 15.",
+          "hint": "Look at Biscuit joints (page 15). It has two common names.",
           "type": "short",
           "maxPoints": 1,
           "rubric": [
@@ -246,25 +176,45 @@
           ]
         },
         {
-          "id": "q8_welded_joints_three",
-          "text": "Q8: Name THREE basic welded joints (any 3).",
+          "id": "q8_three_welded_joints",
+          "text": "8.\tName three of the five basic welded joints.\n\n1.\n2.\n3.\n4.\n5.",
           "image": "blank.jpg",
-          "hint": "Metal joints and Welding page 16.",
+          "hint": "Look at Welding (page 16). Write ANY THREE joint names from the list.",
           "type": "short",
           "maxPoints": 3,
           "rubric": [
-            { "points": 1, "check": "\\b(butt)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(corner)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(tee|t\\s*-?\\s*joint|t\\s*joint)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(lap)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(edge)\\b", "flags": "i" }
+            {
+              "points": 1,
+              "check": "\\b(butt\\s*joint|butt)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(corner\\s*joint|corner)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(tee\\s*joint|t\\s*-?\\s*joint|t\\s*joint|tee)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(lap\\s*joint|lap)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(edge\\s*joint|edge)\\b",
+              "flags": "i"
+            }
           ]
         },
         {
-          "id": "q9_gases_two",
-          "text": "Q9: Name the TWO most common gases used in gas welding.",
+          "id": "q9_two_gases",
+          "text": "9.\tWhat are the two most common gases used in gas welding?\n\n1.\n2.",
           "image": "blank.jpg",
-          "hint": "Gas welding page 33.",
+          "hint": "Look at Gas welding (page 17) and the glossary (page 6). You need TWO gas names.",
           "type": "short",
           "maxPoints": 2,
           "rubric": [
@@ -276,31 +226,21 @@
           ]
         },
         {
-          "id": "q10a_quality_key_prep",
-          "text": "Q10a: Key to a quality project — name ONE key idea.",
+          "id": "q10_key_quality_project",
+          "text": "10.\tWhat is the key to producing a quality project?",
           "image": "blank.jpg",
-          "hint": "Wood joints page 14.",
-          "type": "short",
-          "maxPoints": 1,
+          "hint": "Look in the Wood joints intro about what matters most before making joints (page 7 area). A short sentence is fine.",
+          "type": "long",
+          "maxPoints": 2,
           "rubric": [
             {
               "points": 1,
-              "check": "\\b(prep|preparation|prepare|prepared|set\\s*up|setup|set-up|ready|material\\s*prep|timber\\s*prep|stock\\s*prep)\\b",
+              "check": "\\b(preparation|prepare|prepared|prep|planed|sawn|square|squared\\s*off)\\b",
               "flags": "i"
-            }
-          ]
-        },
-        {
-          "id": "q10b_quality_key_accuracy",
-          "text": "Q10b: Key to a quality project — name ANOTHER key idea.",
-          "image": "blank.jpg",
-          "hint": "Think: accuracy / square / straight.",
-          "type": "short",
-          "maxPoints": 1,
-          "rubric": [
+            },
             {
               "points": 1,
-              "check": "\\b(accurate|accuracy|precise|precision|measure\\s*accurate|mark\\s*out\\s*accurate|square|straight|true|flat|90\\b|90\\s*degrees|right\\s*angle)\\b",
+              "check": "\\b(accurate|accuracy|accurately|precise|precision|square|straight|true|flat|90\\s*degrees|right\\s*angle|perpendicular)\\b",
               "flags": "i"
             }
           ]
