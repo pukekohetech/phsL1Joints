@@ -58,7 +58,7 @@
         {
           "id": "q2_mitre_joint_angle",
           "text": "2.\tWhat is the name of the joint used to join mouldings around a rectangular doorway and what is the angle of the cut?",
-          "image": "blank.jpg",
+          "image": "miter.png",
           "hint": "Look at Mitre joints (pages 8–9 area). You need the JOINT NAME and the CUT ANGLE.",
           "type": "short",
           "maxPoints": 3,
