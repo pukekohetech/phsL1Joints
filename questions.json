@@ -253,16 +253,16 @@
           "type": "long",
           "maxPoints": 2,
           "rubric": [
-            {
-              "points": 1,
-              "check": "\\b(preparation|prepare|prepared|prep|planed|sawn|square|squared\\s*off)\\b",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "\\b(accurate|accuracy|accurately|precise|precision|square|straight|true|flat|90\\s*degrees|right\\s*angle|perpendicular)\\b",
-              "flags": "i"
-            }
+           {
+  "points": 1,
+  "check": "\\b(preparation|prepare|prepared|prep|planning|plan|working\\s*to\\s*(a\\s*)?drawing|working\\s*to\\s*plan|material\\s*selection|selecting\\s*(the\\s*)?right\\s*material|timber\\s*selection|stock\\s*selection|checking\\s*materials?|check\\s*for\\s*defects|defects?|knots?|cracks?|splits?|material\\s*prep|timber\\s*prep)\\b",
+  "flags": "i"
+},
+{
+  "points": 1,
+  "check": "\\b(accurate|accuracy|accurately|precision|precise|measure|measuring|measurement|double\\s*check|checking\\s*measurements?|working\\s*within\\s*tolerance|tolerance|square|straight|true|flat|90\\s*degrees|right\\s*angle|within\\s*spec|to\\s*spec)\\b",
+  "flags": "i"
+}
           ]
         }
       ]
