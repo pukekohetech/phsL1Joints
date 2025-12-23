@@ -1,6 +1,6 @@
 {
   "APP_ID": "Knowledge Assessment - US 25920 (v3) Use joints for a BCATS project",
-  "VERSION": "2025",
+  "VERSION": "2026",
   "APP_TITLE": "US 25920 (v3) Use joints for a BCATS project",
   "APP_SUBTITLE": "Knowledge Assessment - Short Answer Friendly (no giveaways)",
   "DEADLINE": {
@@ -116,8 +116,8 @@
           ]
         },
         {
-          "id": "q5_mortise_tenon_specific_names",
-          "text": "5.\tWhat are the specific names of the following mortise and tenon joints? \n\ta)  Stops a rail from twisting\t\n\tb)  Does not penetrate right through the stile\t\n\tc)  Passes all the way through the stile\t",
+          "id": "q5_mortise_tenon_specific_a",
+          "text": "5.\tWhat are the specific names of the following mortise and tenon joints? \n\ta)  Stops a rail from twisting\t\n\t\t",
           "image": "blank.jpg",
           "hint": "Look at Mortise and tenon joints (page 11). Match each description to the correct joint name.",
           "type": "long",
@@ -127,12 +127,32 @@
               "points": 1,
               "check": "\\b(haunch|haunched|haunching)\\b",
               "flags": "i"
-            },
+            }
+          ]
+        },
+        {
+          "id": "q5_mortise_tenon_specific_names_b",
+          "text": "5.\tWhat are the specific names of the following mortise and tenon joints? \n\tb)  Does not penetrate right through the stile\t\n\t",
+          "image": "blank.jpg",
+          "hint": "Look at Mortise and tenon joints (page 11). Match each description to the correct joint name.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
             {
               "points": 1,
               "check": "\\b(stub|stopped|blind)\\b",
               "flags": "i"
-            },
+            }
+          ]
+        },
+        {
+          "id": "q5_mortise_tenon_specific_names_c",
+          "text": "5.\tWhat are the specific names of the following mortise and tenon joints? \n\tc)  Passes all the way through the stile\t",
+          "image": "blank.jpg",
+          "hint": "Look at Mortise and tenon joints (page 11). Match each description to the correct joint name.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
             {
               "points": 1,
               "check": "\\b(through)\\b",
