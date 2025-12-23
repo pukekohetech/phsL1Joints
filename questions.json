@@ -183,7 +183,7 @@
         {
           "id": "q7_biscuit_tool",
           "text": "7.\tWhat is the name of the portable power tool used make a biscuit joint?",
-          "image": "blank.jpg",
+          "image": "biscuit.png",
           "hint": "Look at Biscuit joints (page 15). It has two common names.",
           "type": "short",
           "maxPoints": 1,
