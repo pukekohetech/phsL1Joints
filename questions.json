@@ -103,7 +103,7 @@
         {
           "id": "q4_stopped_housing",
           "text": "4.\tWhat is the name of the housing joint where the trench does not extend right across the face of the vertical board?",
-          "image": "blank.jpg",
+          "image": "SHousing.png",
           "hint": "Look at Housing joints (page 10 area). It’s the housing where the trench stops short of the front face.",
           "type": "short",
           "maxPoints": 1,
