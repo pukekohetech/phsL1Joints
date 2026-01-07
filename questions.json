@@ -29,6 +29,7 @@
     {
       "id": "US 25920 (v3) - Knowledge Quiz",
       "title": "US 25920 v3 Knowledge Assessment",
+      "attachSignoff": true,
       "subtitle": "Use joints for a BCATS project",
       "usNumber": "US 25920",
       "usVersion": "3",
