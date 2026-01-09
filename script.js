@@ -1,7 +1,4 @@
 
-/* script.js – US 24355 app: FINAL + DEADLINE + HINTS ONLY UNDER QUESTIONS */
-/* Streamlined PDF header: shows ONLY "Submitted early/today/late" line (no Submitted/PDF Generated lines) */
-
 // ------------------------------------------------------------
 // Local storage – now dynamic & versioned
 // ------------------------------------------------------------
