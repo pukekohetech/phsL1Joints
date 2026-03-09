@@ -170,15 +170,15 @@
           "maxPoints": 2,
           "rubric": [
             {
-              "points": 1,
-              "check": "\\b(accurate|accuracy|accurately|precise|precision|exact|careful|correct)\\b",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "\\b(line\\s*up|lines\\s*up|align|alignment|match\\s*up|fit|fits|go\\s*together|square|straight|flush|no\\s*gaps?|gap\\s*free|perfectly)\\b",
-              "flags": "i"
-            }
+      "points": 1,
+      "check": "\\b(accurate|accuracy|accurately|precise|precision|exact|careful|correct|properly\\s*set|setting\\s*out\\s*correctly)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(line\\s*up|lines\\s*up|align|aligns|alignment|match\\s*up|fit|fits|fitting|go\\s*together|come\\s*together|comes\\s*together|assemble|assembly|square|straight|flush|no\\s*gaps?|gap\\s*free|properly)\\b",
+      "flags": "i"
+    }
           ]
         },
         {
