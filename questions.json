@@ -89,16 +89,16 @@
           "type": "long",
           "maxPoints": 2,
           "rubric": [
-            {
-              "points": 1,
-              "check": "\\b(strong|strength|cannot\\s*pull\\s*apart|can'?t\\s*pull\\s*apart|won'?t\\s*pull\\s*apart|resist|prevents|prevent|hold|holding|lock|locking|tight|tension|durable|hard\\s*wearing|long\\s*lasting|repeat|repeated|pulling|drawer\\s*front|front\\s*from\\s*coming\\s*away|come\\s*away)\\b",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "\\b(hidden|hide|hides|conceal|concealed|not\\s*visible|invisible|not\\s*seen|clean\\s*front|neat|tidy|better\\s*finish|good\\s*finish|looks\\s*good|nice\\s*front|front\\s*looks|appearance)\\b",
-              "flags": "i"
-            }
+             {
+      "points": 1,
+      "check": "\\b(strong|strength|durable|long\\s*lasting|hard\\s*wearing|resist|resists|prevent|prevents|stop|stops|hold|holding|lock|locking|tight|won'?t\\s*pull\\s*apart|can'?t\\s*pull\\s*apart|resist\\s*pull|resist\\s*pulling|pull\\s*apart|drawer\\s*front\\s*(from\\s*)?(coming|pulling)\\s*away)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(hidden|hide|hides|conceal|concealed|not\\s*visible|invisible|not\\s*seen|can'?t\\s*see|cannot\\s*see|joints?\\s*(are\\s*)?not\\s*visible|joints?\\s*(are\\s*)?hidden|clean\\s*front|smooth\\s*front|neat|tidy|good\\s*finish|better\\s*finish|appearance|decorative|aesthetic|looks\\s*good)\\b",
+      "flags": "i"
+    }
           ]
         },
         {
