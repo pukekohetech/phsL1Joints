@@ -199,7 +199,7 @@
         {
           "id": "q8_three_welded_joints",
           "text": "8.\tName three of the five basic welded joints.\n\n1.\n2.\n3.\n4.\n5.",
-          "image": "blank.jpg",
+          "image": "WeldJoints.png",
           "hint": "Look at Welding (page 16). Write ANY THREE joint names from the list.",
           "type": "short",
           "maxPoints": 3,
